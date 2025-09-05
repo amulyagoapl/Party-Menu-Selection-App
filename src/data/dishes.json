@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "name": "Paneer Tikka",
+    "description": "Marinated paneer cubes roasted with spices.",
+    "image": "/panner.jpeg"
+  },
+  {
+    "id": 2,
+    "mealType": "STARTER",
+    "type": "NONVEG",
+    "name": "Chicken Tikka",
+    "description": "Tender chicken pieces grilled to perfection.",
+    "image": "/chickentikka.jpeg"
+  },
+  {
+    "id": 3,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Gulab Jamun",
+    "description": "Soft fried balls dipped in sugar syrup.",
+    "image": "/gulabjamun.jpg"
+  },
+  {
+    "id": 4,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "French Fries",
+    "description": "Crispy golden potato fries.",
+    "image": "/fries.jpeg"
+  },
+  {
+    "id": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NONVEG",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice layered with spicy chicken masala.",
+    "image": "/ChickenBirayani.jpeg"
+  },
+  {
+    "id": 6,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "name": "Paneer Biryani",
+    "description": "Fragrant rice cooked with marinated paneer and spices.",
+    "image": "/paneerbiryani.jpeg"
+  }
+]
