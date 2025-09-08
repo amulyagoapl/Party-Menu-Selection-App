@@ -1,3 +1,1 @@
-Video Link:
-
-<video src="public/Screen%20Recording%202025-09-05%20193130.mp4" width="320" height="240" controls></video>
+Video Link: [click here]( https://drive.google.com/file/d/1NlfBjft6xLRixfSQ7EwV9C-FoUyXlL_D/view?usp=sharing)
