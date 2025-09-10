@@ -25,6 +25,38 @@
   },
   {
     "id": 4,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "name": "Rasgulla",
+    "description": "Spongy balls in light sugar syrup.",
+    "image": "/rasgulla.webp"
+  },
+  {
+    "id": 5,
+    "mealType": "MAIN COURSE",
+    "type": "NONVEG",
+    "name": "Tandoori Chicken",
+    "description": "Chicken marinated in yogurt and spices, cooked in a clay oven.",
+    "image": "/tandoori chicken.jpg"
+  },
+  {
+    "id": 6,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "name": "Dal Makhani",
+    "description": "Creamy black lentils simmered with butter and mild spices.",
+    "image": "/Dal-Makhani-Blog.jpg"
+  },
+  {
+    "id": 7,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "name": "Cabbage",
+    "description": "Fresh cabbage sautéed with mild spices and herbs.",
+    "image": "/cabbage1.jpg"
+  },
+  {
+    "id": 8,
     "mealType": "SIDES",
     "type": "VEG",
     "name": "French Fries",
@@ -32,28 +64,11 @@
     "image": "/fries.jpeg"
   },
   {
-  "id": 5,
-  "mealType": "MAIN COURSE",
-  "type": "NONVEG",
-  "name": "Tandoori Chicken",
-  "description": "Chicken marinated in yogurt and spices, cooked in a clay oven.",
-  "image" : "/tandoori chicken.jpg"
-},
-{
-  "id": 6,
-  "mealType": "MAIN COURSE",
-  "type": "VEG",
-  "name": "Dal Makhani",
-  "description": "Creamy black lentils simmered with butter and mild spices.",
-  "image": "/Dal-Makhani-Blog.jpg"
-},
-{
-  "id": 7,
-  "mealType": "MAIN COURSE",
-  "type": "VEG",
-  "name": "Cabbage",
-  "description": "Fresh cabbage sautéed with mild spices and herbs.",
-  "image" : "/cabbage1.jpg"
-}
-
+    "id": 9,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "name": "Mixed Vegetable Salad",
+    "description": "Fresh garden vegetables tossed in a light dressing.",
+    "image": "/salad.webp"
+  }
 ]
