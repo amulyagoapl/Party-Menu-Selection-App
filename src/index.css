@@ -75,7 +75,7 @@ body {
 }
 
 /* Dish Card */
-.card {
+/* .card {
   display: flex;
   gap: 16px;
   background: white;
@@ -84,7 +84,20 @@ body {
   padding: 16px;
   margin-bottom: 16px;
   align-items: center;
+} */
+ .card {
+  display: flex;
+  gap: 16px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+  /* Add this: */
+  flex-direction: row-reverse;
 }
+
 .card img {
   width: 100px;
   height: 100px;
@@ -105,7 +118,7 @@ body {
   gap: 8px;
   margin-top: 8px;
 }
-button.add-btn {
+/* button.add-btn {
   background: #ff9800;
   border: none;
   color: white;
@@ -115,13 +128,47 @@ button.add-btn {
 }
 button.add-btn:hover {
   background: #e68900;
+} */
+ button.add-btn {
+  background: #ff9800;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-a.ingredients-link {
+
+button.add-btn:hover {
+  background: #e68900;
+}
+
+/* a.ingredients-link {
   color: #2196f3;
   text-decoration: underline;
   font-size: 14px;
   cursor: pointer;
+} */
+a.ingredients-link {
+  color: #ff9800;
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s;
 }
+
+a.ingredients-link:hover {
+  color: #e68900; /* Slightly darker orange on hover */
+  text-decoration: underline; /* Optional: underline on hover for feedback */
+}
+
+
 
 /* Footer */
 .footer {
@@ -146,4 +193,21 @@ a.ingredients-link {
 }
 .footer button:hover {
   background: #eee;
+}
+.veg-dot, .nonveg-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #eee;
+  margin-right: 2px;
+  vertical-align: middle;
+}
+
+.veg-dot {
+  background: #32cd32; /* green */
+}
+
+.nonveg-dot {
+  background: #ff3c3c; /* red */
 }
